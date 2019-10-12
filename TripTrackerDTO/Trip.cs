@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace TripTracker.BackService.Models
+namespace TripTrackerDTO
 {
     public class Trip
     {
@@ -14,7 +13,5 @@ namespace TripTracker.BackService.Models
         public DateTime StartDate { get; set; }
         [Required]
         public DateTime EndDate { get; set; }
-
-        public List<Segment> Segments { get; set; }
     }
 }

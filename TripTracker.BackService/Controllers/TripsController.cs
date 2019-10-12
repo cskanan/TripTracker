@@ -23,9 +23,13 @@ namespace TripTracker.BackService.Controllers
         }
         // GET api/values
         [HttpGet]
-        public IActionResult Get()
+        public async Task<IActionResult> GetAsync()
         {
-            return Ok(_context.Trips.ToList());
+            return Ok( await _context
+                .Trips
+                .AsNoTracking()
+                .Include(t=>t.Segments)
+                .ToListAsync());
         }
 
         // GET api/values/5

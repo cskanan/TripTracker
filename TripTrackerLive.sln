@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripTracker.BackService", "TripTracker.BackService\TripTracker.BackService.csproj", "{98794497-F00E-4CF6-A05E-2B206E3B6D67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TripTracker.BackService", "TripTracker.BackService\TripTracker.BackService.csproj", "{98794497-F00E-4CF6-A05E-2B206E3B6D67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripTrackerDTO", "TripTrackerDTO\TripTrackerDTO.csproj", "{09A701D2-74CE-4BFA-BEAD-9B5D5F48B6EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripTrackerUI", "TripTrackerUI\TripTrackerUI.csproj", "{B9CEB65A-7500-47D0-94C3-1ED578D3DD72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{98794497-F00E-4CF6-A05E-2B206E3B6D67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98794497-F00E-4CF6-A05E-2B206E3B6D67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98794497-F00E-4CF6-A05E-2B206E3B6D67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09A701D2-74CE-4BFA-BEAD-9B5D5F48B6EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09A701D2-74CE-4BFA-BEAD-9B5D5F48B6EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09A701D2-74CE-4BFA-BEAD-9B5D5F48B6EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09A701D2-74CE-4BFA-BEAD-9B5D5F48B6EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9CEB65A-7500-47D0-94C3-1ED578D3DD72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9CEB65A-7500-47D0-94C3-1ED578D3DD72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9CEB65A-7500-47D0-94C3-1ED578D3DD72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9CEB65A-7500-47D0-94C3-1ED578D3DD72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
